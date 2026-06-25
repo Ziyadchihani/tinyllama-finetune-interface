@@ -10,11 +10,11 @@ This project is designed for consumer-grade GPUs such as the **NVIDIA GTX 1650 (
 
 ### Chat Interface
 
-![Chat Interface](src/one.png)
+![Chat Interface](src/scene/one.png)
 
 ### Conversation Example
 
-![Conversation Example](src/two.png)
+![Conversation Example](src/scene/two.png)
 
 ---
 
