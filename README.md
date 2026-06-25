@@ -59,6 +59,7 @@ This project is designed for consumer-grade GPUs such as the **NVIDIA GTX 1650 (
 ├── src/
 │   ├── train.py               # QLoRA fine-tuning script
 │   ├── interface.py           # Gradio chat application
+├── scene
 │   ├── one.png                # Interface screenshot
 │   └── two.png                # Conversation screenshot
 ├── requirements.txt
