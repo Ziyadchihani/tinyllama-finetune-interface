@@ -14,7 +14,7 @@ os.environ["TRANSFORMERS_OFFLINE"] = "1"
 # Base configuration settings using TinyLlama
 MODEL_NAME = "TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T" 
 DATASET_NAME = "timdettmers/openassistant-guanaco" 
-OUTPUT_DIR = "./lora_llm_weights"
+OUTPUT_DIR = "../lora_llm_weights"
 
 print("🔄 Loading TinyLlama tokenizer and quantized model...")
 
