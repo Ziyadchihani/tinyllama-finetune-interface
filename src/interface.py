@@ -11,7 +11,7 @@ os.environ["HF_HUB_OFFLINE"] = "1"
 os.environ["TRANSFORMERS_OFFLINE"] = "1"
 
 BASE_MODEL = "TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T"
-LORA_WEIGHTS = "./lora_llm_weights"
+LORA_WEIGHTS = "../lora_llm_weights"
 
 print("🔄 Loading Model and Tokenizer for the Interface...")
 tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL, local_files_only=True)
